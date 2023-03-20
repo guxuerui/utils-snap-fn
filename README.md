@@ -10,23 +10,20 @@ If you also have a common code, welcome to submit pr for this project.
 
 ## :building_construction: install and usage
 
-1. 直接下载`min`目录下的[outils.min.js](https://github.com/proYang/outils/blob/master/min/outils.min.js)使用，支持UMD通用模块规范  
-2. 使用npm安装
-
-### npm
+### 1. npm
 
 ```bash
 npm install utils-snap-fn -D
 ```
 
 ```js
-// 按需引入
+// on-demand introduction
 import { isMobile } from 'utils-snap-fn'
 
 isMobile('13344445555') // true
 ```
 
-## :package:  API文档
+## :package:  API DOC
 
 ### Phone
 

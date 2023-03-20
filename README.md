@@ -4,11 +4,11 @@
 
 > Goal: Efficient completion of functional code development
 
-Business development process, will often use `date formatting`, `browser type judgment`, `throttle function` and other common functions, in order to avoid the trouble of multiple copy and paste for different projects, here a unified package, and released to npm to improve development efficiency.
+Business development process, will often use `mobile judgment`, `browser type judgment`, `throttle function` and other common functions, in order to avoid the trouble of multiple copy and paste for different projects, here a unified package, and released to npm to improve development efficiency.
 
 If you also have a common code, welcome to submit pr for this project.
 
-## :building_construction: install and usage
+## :building_construction: Install
 
 ### 1. npm
 
@@ -16,15 +16,34 @@ If you also have a common code, welcome to submit pr for this project.
 npm install utils-snap-fn -D
 ```
 
+### 2. pnpm
+
+```bash
+pnpm add utils-snap-fn -D
+```
+
+## :anchor: Usage
+
+### 1. on-demand import
+
 ```js
-// on-demand introduction
 import { isMobile } from 'utils-snap-fn'
 
 isMobile('13344445555') // true
 ```
 
+### 2. full import
+
+```js
+import * as snapFn from 'utils-snap-fn'
+
+snapFn.isMobile('18811112222') // true
+snapFn.isMobile('28811112222') // false
+```
+
 ## :package:  API DOC
 
-### Phone
+### Regex
 
-- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/index.ts) -- judge if phone number
+- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isMobile.ts) -- judge if phone number
+- [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isSafari.ts) -- judge if safari browser

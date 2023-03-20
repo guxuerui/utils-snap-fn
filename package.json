@@ -1,8 +1,9 @@
 {
   "name": "utils-snap-fn",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "front-end javascript utils function snap code",
   "type": "module",
+  "types": "./lib/src/main.d.ts",
   "main": "./lib/utils-snap-fn.cjs.js",
   "jsnext:main": "./lib/utils-snap-fn.esm.js",
   "module": "./lib/utils-snap-fn.esm.js",

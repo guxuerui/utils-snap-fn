@@ -1,16 +1,23 @@
 {
   "name": "utils-snap-fn",
-  "version": "1.0.0",
-  "description": "javascript utils function snap code",
+  "version": "1.0.3",
+  "description": "front-end javascript utils function snap code",
   "type": "module",
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "./lib/utils-snap-fn.cjs.js",
+  "jsnext:main": "./lib/utils-snap-fn.esm.js",
+  "module": "./lib/utils-snap-fn.esm.js",
+  "browser": "./lib/utils-snap-fn.browser.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w"
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c -w",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guxuerui/utils-snap-fn.git"
   },
   "keywords": [
     "utils",
@@ -32,6 +39,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "eslint": "^8.36.0",
     "rollup": "^3.20.0",
+    "rollup-plugin-dts": "^5.3.0",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2"
   }

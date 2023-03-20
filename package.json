@@ -1,0 +1,38 @@
+{
+  "name": "utils-fn",
+  "version": "1.0.0",
+  "description": "javascript utils function snap code",
+  "type": "module",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "keywords": [
+    "utils",
+    "fn",
+    "snap",
+    "cjs",
+    "esm"
+  ],
+  "author": "guxuerui",
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.37.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "eslint": "^8.36.0",
+    "rollup": "^3.20.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2"
+  }
+}

@@ -7,13 +7,9 @@ If you also have some common code, welcome to submit `pr` for this project.
 
 ## :building_construction: Install
 
-### 1. npm
+### pnpm
 
-```bash
-npm install utils-snap-fn -D
-```
-
-### 2. pnpm
+> or any other package management tool you like
 
 ```bash
 pnpm add utils-snap-fn -D
@@ -25,8 +21,6 @@ pnpm add utils-snap-fn -D
 
 ```js
 import { isMobile } from 'utils-snap-fn'
-
-isMobile('13344445555') // true
 ```
 
 ### 2. full import
@@ -34,13 +28,42 @@ isMobile('13344445555') // true
 ```js
 import * as snapFn from 'utils-snap-fn'
 
+// example
 snapFn.isMobile('18811112222') // true
 snapFn.isMobile('28811112222') // false
 ```
 
+### 3. CDN
+
+You can download the `utils-snap-fn.browser.js` file from the `lib` directory and use it directly.
+It also supports CDN, so you can include it in your HTML file through the CDN link
+
+```js
+// <script src="./js/utils-snap-fn.browser.js"></script>
+
+isMobile('13344445555') // true
+```
+
+### 4. CJS
+
+You can download the `utils-snap-fn.cjs.js` file from the `lib` directory and use it directly.
+It is designed to be used in a Node.js environment, so you can import it in your Node.js code
+
 ## :package:  API DOC
 
-### Regex
+> The examples below assume the use of import on demand
+
+### 1. Regex
 
 - [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isMobile.ts) -- judge if phone number
+
+```js
+isMobile('13344445555') // true
+isMobile('28811112222') // false
+```
+
 - [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isSafari.ts) -- judge if safari browser
+
+```js
+const ifSafari = isSafari() // true or false
+```

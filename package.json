@@ -1,6 +1,6 @@
 {
   "name": "utils-snap-fn",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "front-end javascript utils function snap code",
   "type": "module",
   "types": "./lib/src/main.d.ts",
@@ -13,7 +13,7 @@
   ],
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
-    "dev": "rollup -c -w",
+    "dev": "rollup -c -w --bundleConfigAsCjs",
     "lint": "eslint ."
   },
   "repository": {

@@ -1,3 +1,3 @@
-import isMobile from './isMobile';
-import isSafari from './isSafari';
+import isMobile from './regex/isMobile';
+import isSafari from './regex/isSafari';
 export { isMobile, isSafari, };

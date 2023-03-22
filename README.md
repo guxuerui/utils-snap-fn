@@ -7,11 +7,14 @@ If you also have some common code, welcome to submit `pr` for this project.
 
 ## :building_construction: Install
 
-### pnpm
-
-> or any other package management tool you like
-
 ```bash
+# npm
+npm i utils-snap-fn -D
+
+# yarn
+yarn add utils-snap-fn -D
+
+# pnpm
 pnpm add utils-snap-fn -D
 ```
 

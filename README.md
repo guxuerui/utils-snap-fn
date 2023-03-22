@@ -70,3 +70,7 @@ isMobile('28811112222') // false
 ```js
 const ifSafari = isSafari() // true or false
 ```
+
+## LICENSE
+
+[MIT](https://github.com/guxuerui/utils-fn/blob/main/LICENSE)

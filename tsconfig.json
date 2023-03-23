@@ -15,7 +15,10 @@
     "outDir": "out-tsc",
     "rootDir": "./",
     "allowJs": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "types": [
+      "vitest/globals"
+    ]
   },
   "include": [
     "./src/*.ts",

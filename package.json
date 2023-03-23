@@ -1,6 +1,6 @@
 {
   "name": "utils-snap-fn",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "front-end javascript utils function snap code",
   "type": "module",
   "types": "./lib/src/main.d.ts",

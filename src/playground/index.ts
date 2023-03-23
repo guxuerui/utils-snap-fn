@@ -1,5 +1,5 @@
-import isMobile from './regex/isMobile'
-import isSafari from './regex/isSafari'
+import isMobile from './regexp/isMobile'
+import isSafari from './regexp/isSafari'
 export {
   isMobile,
   isSafari,

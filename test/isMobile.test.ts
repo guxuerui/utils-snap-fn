@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import isMobile from '../src/playground/regex/isMobile'
+import isMobile from '../src/playground/regexp/isMobile'
 
 describe('isMobile', () => {
   it('should return true for valid China mobile phone number', () => {

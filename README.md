@@ -58,17 +58,31 @@ It is designed to be used in a Node.js environment, so you can import it in your
 
 ### 1. Regex
 
-- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isMobile.ts) -- judge if phone number
+- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isMobile.ts) -- check if an phone number
 
 ```js
 isMobile('13344445555') // true
 isMobile('28811112222') // false
 ```
 
-- [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isSafari.ts) -- judge if safari browser
+- [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isSafari.ts) -- check if is safari browser
 
 ```js
-const ifSafari = isSafari() // true or false
+isSafari() // true or false
+```
+
+- [isEamil](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isEmail.ts) -- Check if is an email address
+
+```js
+isEmail('123@gmail.com') // true
+isEmail('123@.exm.com') // false
+```
+
+- [isIdCard](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIdCard.ts) -- Check if is an IdCard number
+
+```js
+isIdCard('13068219990814293X') // true
+isIdCard('187329473298') // false
 ```
 
 ## LICENSE

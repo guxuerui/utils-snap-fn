@@ -1,6 +1,6 @@
 import { assert, describe, it } from 'vitest'
 import { JSDOM } from 'jsdom'
-import isSafari from '../src/playground/regexp/isSafari'
+import isSafari from '../../src/playground/regexp/isSafari'
 
 describe('isSafari', () => {
   const dom = new JSDOM('<!DOCTYPE html><p>Hello world</p>')

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import isEmail from '../src/playground/regexp/isEmail'
+import isEmail from '../../src/playground/regexp/isEmail'
 
 describe('isEmail', () => {
   it('should return true when given a valid email address', () => {

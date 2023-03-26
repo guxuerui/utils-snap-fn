@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import isIdCard from '../src/playground//regexp/isIdCard'
+import isIdCard from '../../src/playground//regexp/isIdCard'
 
 describe('isIdCard', () => {
   it('should return true when given a valid IdCard value', () => {

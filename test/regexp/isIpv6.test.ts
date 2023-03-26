@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import isIpv6 from '../src/playground/regexp/isIpv6'
+import isIpv6 from '../../src/playground/regexp/isIpv6'
 
 describe('isIpv6', () => {
   it('should return true when given a valid IPV6 address', () => {

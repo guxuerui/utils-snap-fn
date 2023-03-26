@@ -85,6 +85,20 @@ isIdCard('13068219990814293X') // true
 isIdCard('187329473298') // false
 ```
 
+- [isIpv4](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIpv4.ts) -- Check if is an IPV4 address
+
+```js
+isIpv4('192.168.1.1') // true
+isIpv4('19.256.3.2') // false
+```
+
+- [isIpv6](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIpv6.ts) -- Check if is an IPV6 address
+
+```js
+isIpv6('2001:0db8::1:0:0:1') // true
+isIpv6('2001:0db8:85a3::8a2e:03707334') // false
+```
+
 ## LICENSE
 
 [MIT](https://github.com/guxuerui/utils-fn/blob/main/LICENSE)

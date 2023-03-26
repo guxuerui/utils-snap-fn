@@ -58,41 +58,41 @@ It is designed to be used in a Node.js environment, so you can import it in your
 
 ### 1. Regex
 
-- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isMobile.ts) -- check if an phone number
+- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isMobile.ts) -- check if an phone number
 
 ```js
 isMobile('13344445555') // true
 isMobile('28811112222') // false
 ```
 
-- [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isSafari.ts) -- check if is safari browser
+- [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isSafari.ts) -- check if is safari browser
 
 ```js
 isSafari() // true or false
 ```
 
-- [isEamil](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isEmail.ts) -- Check if is an email address
+- [isEamil](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isEmail.ts) -- Check if is an email address
 
 ```js
 isEmail('123@gmail.com') // true
 isEmail('123@.exm.com') // false
 ```
 
-- [isIdCard](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIdCard.ts) -- Check if is an IdCard number
+- [isIdCard](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isIdCard.ts) -- Check if is an IdCard number
 
 ```js
 isIdCard('13068219990814293X') // true
 isIdCard('187329473298') // false
 ```
 
-- [isIpv4](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIpv4.ts) -- Check if is an IPV4 address
+- [isIpv4](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isIpv4.ts) -- Check if is an IPV4 address
 
 ```js
 isIpv4('192.168.1.1') // true
 isIpv4('19.256.3.2') // false
 ```
 
-- [isIpv6](https://github.com/guxuerui/utils-fn/blob/main/src/playground/isIpv6.ts) -- Check if is an IPV6 address
+- [isIpv6](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isIpv6.ts) -- Check if is an IPV6 address
 
 ```js
 isIpv6('2001:0db8::1:0:0:1') // true

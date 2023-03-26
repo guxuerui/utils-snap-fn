@@ -1,7 +1,7 @@
 {
   "name": "utils-snap-fn",
   "type": "module",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "front-end javascript utils function snap code",
   "author": "guxuerui",
   "license": "MIT",

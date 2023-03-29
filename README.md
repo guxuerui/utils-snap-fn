@@ -2,8 +2,7 @@
 
 **Front-end tool function code snippets with full `typescript` support**
 
-> Business development process, will often use `mobile judgment`, `browser type judgment`, `throttle function` and other common functions, in order to avoid the trouble of multiple copy and paste for different projects, here a unified package, and released to npm to improve development efficiency.
-If you also have some common code, welcome to submit `pr` for this project.
+> Collect some common utility functions for use in work. If you also have some common code, welcome to submit `pr` for this project.
 
 ## :building_construction: Install
 

@@ -98,6 +98,15 @@ isIpv6('2001:0db8::1:0:0:1') // true
 isIpv6('2001:0db8:85a3::8a2e:03707334') // false
 ```
 
+### 2. Array
+
+- [isArrayEqual](https://github.com/guxuerui/utils-fn/blob/main/src/playground/array/isArrayEqual.ts) -- Check if two arrays are equal
+
+```js
+isArrayEqual([1, 2, 3], [1, 2, 3]) // true
+isArrayEqual([1, 2, 3], [1, 2, 3, 4]) // false
+```
+
 ## LICENSE
 
 [MIT](https://github.com/guxuerui/utils-fn/blob/main/LICENSE)

@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import generateUUID from '../../src/playground/random/randomUUID'
+import isValidUUID from '../../src/playground/regexp/isValidUUID'
 
 describe('generateUUID', () => {
   it('should generate a valid UUID', () => {
     const uuid = generateUUID()
-    const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[4][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/
-    expect(uuidRegex.test(uuid)).toBe(true)
+    expect(isValidUUID(uuid)).toBe(true)
   })
 
   it('should generate a unique UUID each time', () => {

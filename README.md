@@ -98,6 +98,12 @@ isIpv6('2001:0db8::1:0:0:1') // true
 isIpv6('2001:0db8:85a3::8a2e:03707334') // false
 ```
 
+- [isValidUUID](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isValidUUID.ts) -- Check if is an valid UUID
+
+```js
+isValidUUID(generateUUID()) // true
+```
+
 ### 2. Array
 
 - [isArrayEqual](https://github.com/guxuerui/utils-fn/blob/main/src/playground/array/isArrayEqual.ts) -- Check if two arrays are equal
@@ -105,6 +111,14 @@ isIpv6('2001:0db8:85a3::8a2e:03707334') // false
 ```js
 isArrayEqual([1, 2, 3], [1, 2, 3]) // true
 isArrayEqual([1, 2, 3], [1, 2, 3, 4]) // false
+```
+
+### 3. Random
+
+- [generateUUID](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomUUID.ts) -- Generate random UUID
+
+```js
+generateUUID() // random UUID
 ```
 
 ## LICENSE

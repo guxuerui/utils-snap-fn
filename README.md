@@ -121,6 +121,12 @@ isArrayEqual([1, 2, 3], [1, 2, 3, 4]) // false
 generateUUID() // random UUID
 ```
 
+- [randomNum](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomNum.ts) -- Generate random number
+
+```js
+randomNum() // random number
+```
+
 > Continuously updating...
 
 ## LICENSE

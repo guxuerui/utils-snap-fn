@@ -121,6 +121,8 @@ isArrayEqual([1, 2, 3], [1, 2, 3, 4]) // false
 generateUUID() // random UUID
 ```
 
+> Continuously updating...
+
 ## LICENSE
 
 [MIT](https://github.com/guxuerui/utils-fn/blob/main/LICENSE)

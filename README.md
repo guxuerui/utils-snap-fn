@@ -124,7 +124,7 @@ generateUUID() // random UUID
 - [randomNum](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomNum.ts) -- Generate random number
 
 ```js
-randomNum() // random number
+randomNum(11, 800) // random number
 ```
 
 > Continuously updating...

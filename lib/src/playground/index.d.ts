@@ -5,4 +5,5 @@ import isIdCard from './regexp/isIdCard';
 import isIpv4 from './regexp/isIpv4';
 import isIpv6 from './regexp/isIpv6';
 import isArrayEqual from './array/isArrayEqual';
-export { isPhoneNum, isSafari, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, };
+import generateUUID from './random/randomUUID';
+export { isPhoneNum, isSafari, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, generateUUID, };

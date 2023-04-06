@@ -127,6 +127,12 @@ generateUUID() // random UUID
 randomNum(11, 800) // random number
 ```
 
+- [randomColor](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomColor.ts) -- Generate random hex color
+
+```js
+randomColor() // random hex color
+```
+
 > Continuously updating...
 
 ## LICENSE

@@ -133,6 +133,14 @@ randomNum(11, 800) // random number
 randomColor() // random hex color
 ```
 
+## 4. String
+
+- [capitalsFirstLetter](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/capitalsFirstLetter.ts) -- Capitals first letter
+
+```js
+capitalsFirstLetter('hello') // Hello 
+```
+
 > Continuously updating...
 
 ## LICENSE

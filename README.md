@@ -1,4 +1,4 @@
-# utils-snap-fn
+# utils-fn
 
 **Front-end tool function code snippets with full `typescript` support**
 

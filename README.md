@@ -22,7 +22,7 @@ pnpm add utils-snap-fn -D
 ### 1. on-demand import
 
 ```js
-import { isMobile } from 'utils-snap-fn'
+import { isPhoneNum } from 'utils-snap-fn'
 ```
 
 ### 2. full import
@@ -31,8 +31,8 @@ import { isMobile } from 'utils-snap-fn'
 import * as snapFn from 'utils-snap-fn'
 
 // example
-snapFn.isMobile('18811112222') // true
-snapFn.isMobile('28811112222') // false
+snapFn.isPhoneNum('18811112222') // true
+snapFn.isPhoneNum('28811112222') // false
 ```
 
 ### 3. CDN
@@ -43,7 +43,7 @@ It also supports CDN, so you can include it in your HTML file through the CDN li
 ```js
 // <script src="./js/utils-snap-fn.browser.js"></script>
 
-isMobile('13344445555') // true
+isPhoneNum('13344445555') // true
 ```
 
 ### 4. CJS
@@ -57,11 +57,11 @@ It is designed to be used in a Node.js environment, so you can import it in your
 
 ### 1. Regex
 
-- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isMobile.ts) -- check if an phone number
+- [isPhoneNum](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isPhoneNum.ts) -- check if an phone number
 
 ```js
-isMobile('13344445555') // true
-isMobile('28811112222') // false
+isPhoneNum('13344445555') // true
+isPhoneNum('28811112222') // false
 ```
 
 - [isSafari](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isSafari.ts) -- check if is safari browser

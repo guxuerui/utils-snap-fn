@@ -1,5 +1,6 @@
 import isPhoneNum from './regexp/isPhoneNum'
 import isSafari from './regexp/isSafari'
+import isMobile from './regexp/isMobile'
 import isEmail from './regexp/isEmail'
 import isIdCard from './regexp/isIdCard'
 import isIpv4 from './regexp/isIpv4'
@@ -11,6 +12,7 @@ import capitalsFirstLetter from './string/capitalsFirstLetter'
 export {
   isPhoneNum,
   isSafari,
+  isMobile,
   isEmail,
   isIdCard,
   isIpv4,

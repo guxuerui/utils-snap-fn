@@ -70,6 +70,12 @@ isMobile('28811112222') // false
 isSafari() // true or false
 ```
 
+- [isMobile](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isMobile.ts) -- check if is Mobile device
+
+```js
+isMobile() // true or false
+```
+
 - [isEamil](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isEmail.ts) -- Check if is an email address
 
 ```js

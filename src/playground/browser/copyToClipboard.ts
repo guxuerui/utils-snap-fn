@@ -1,5 +1,5 @@
 /**
- * Copies a string or number to the clipboard using the `navigator.clipboard.writeText()` method.
+ * Copies a value to the clipboard using the `navigator.clipboard.writeText()` method.
  * If a callback function is provided, it will be called after the data is successfully copied to the clipboard.
  * If an error occurs while attempting to copy the data, the error will be caught and logged to the console.
  *

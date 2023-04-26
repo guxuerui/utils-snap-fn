@@ -8,4 +8,5 @@ import isIpv6 from './regexp/isIpv6';
 import isArrayEqual from './array/isArrayEqual';
 import generateUUID from './random/randomUUID';
 import capitalsFirstLetter from './string/capitalsFirstLetter';
-export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, generateUUID, capitalsFirstLetter, };
+import copyToClipboard from './browser/copyToClipboard';
+export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, generateUUID, capitalsFirstLetter, copyToClipboard, };

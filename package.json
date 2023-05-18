@@ -1,7 +1,7 @@
 {
   "name": "utils-snap-fn",
   "type": "module",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "front-end javascript utils function snap code",
   "author": "guxuerui",
   "license": "MIT",
@@ -28,7 +28,8 @@
     "build": "rollup -c --bundleConfigAsCjs",
     "dev": "rollup -c -w --bundleConfigAsCjs",
     "lint": "eslint .",
-    "test": "vitest"
+    "test": "vitest",
+    "bumpp": "npx bumpp --commit --tag --push"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",

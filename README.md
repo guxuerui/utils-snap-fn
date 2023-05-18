@@ -119,6 +119,29 @@ isArrayEqual([1, 2, 3], [1, 2, 3]) // true
 isArrayEqual([1, 2, 3], [1, 2, 3, 4]) // false
 ```
 
+- [removeDuplicatesObj](https://github.com/guxuerui/utils-fn/blob/main/src/playground/array/removeDuplicatesObj.ts) -- Remove duplicate objects
+
+```js
+const arr = [
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Jane' },
+  { id: 3, name: 'John' },
+  { id: 4, name: 'Bob' },
+  { id: 5, name: 'Jane' },
+]
+
+const actual = removeDuplicatesObj(arr, 'name')
+/*
+output:
+
+[
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Jane' },
+  { id: 4, name: 'Bob' },
+]
+*/
+```
+
 ### 3. Random
 
 - [generateUUID](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomUUID.ts) -- Generate random UUID
@@ -144,7 +167,7 @@ randomColor() // random hex color
 - [capitalsFirstLetter](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/capitalsFirstLetter.ts) -- Capitals first letter
 
 ```js
-capitalsFirstLetter('hello') // Hello 
+capitalsFirstLetter('hello') // Hello
 ```
 
 > Continuously updating...

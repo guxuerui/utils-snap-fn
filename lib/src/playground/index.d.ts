@@ -12,4 +12,5 @@ import randomNum from './random//randomNum';
 import randomColor from './random//randomColor';
 import capitalsFirstLetter from './string/capitalsFirstLetter';
 import copyToClipboard from './browser/copyToClipboard';
-export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, copyToClipboard, };
+import findTreeNode from './tree/findTreeNode';
+export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, copyToClipboard, findTreeNode, };

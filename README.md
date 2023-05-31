@@ -162,12 +162,52 @@ randomNum(11, 800) // random number
 randomColor() // random hex color
 ```
 
-## 4. String
+### 4. String
 
 - [capitalsFirstLetter](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/capitalsFirstLetter.ts) -- Capitals first letter
 
 ```js
 capitalsFirstLetter('hello') // Hello
+```
+
+### 5. Tree
+
+- [findTreeNode](https://github.com/guxuerui/utils-fn/blob/main/src/playground/tree/findTreeNode.ts) -- Find a tree node
+
+```js
+const tree = {
+  id: 1,
+  name: 'Parent',
+  children: [
+    {
+      id: 2,
+      name: 'Child 1',
+      children: [],
+    },
+    {
+      id: 3,
+      name: 'Child 2',
+      children: [
+        {
+          id: 4,
+          name: 'Grandchild',
+          children: [],
+        },
+      ],
+    },
+  ],
+}
+
+const result = findTreeNode(tree, 'id', 4)
+/*
+output:
+
+{
+  id: 4,
+  name: 'Grandchild',
+  children: [],
+}
+*/
 ```
 
 > Continuously updating...

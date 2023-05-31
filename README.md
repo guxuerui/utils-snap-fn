@@ -1,8 +1,8 @@
 # utils-snap-fn
 
-**Front-end tool function code snippets with full `typescript` support**
-
 > Collect some common utility functions for use in work. If you also have some common code, welcome to submit `pr` for this project.
+
+**Front-end tool function code snippets with full `typescript` support**. If you are using `TS` too, try it!
 
 ## :building_construction: Install
 

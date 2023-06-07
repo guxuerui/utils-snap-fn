@@ -210,6 +210,57 @@ output:
 */
 ```
 
+- [findAllNode](https://github.com/guxuerui/utils-fn/blob/main/src/playground/tree/findAllNode.ts) -- Find all objects that meet the criteria, and return an array
+
+```js
+const tree = {
+  id: 1,
+  name: 'Parent',
+  type: 'folder',
+  children: [
+    {
+      id: 2,
+      name: 'Child 1',
+      type: 'file',
+      children: [],
+    },
+    {
+      id: 3,
+      name: 'Child 2',
+      type: 'folder',
+      children: [
+        {
+          id: 4,
+          name: 'Grandchild',
+          type: 'file',
+          children: [],
+        },
+      ],
+    },
+  ],
+}
+
+const result = findAllNode(tree, 'type', 'file')
+/*
+output:
+
+[
+  {
+    id: 2,
+    name: 'Child 1',
+    type: 'file',
+    children: [],
+  },
+  {
+    id: 4,
+    name: 'Grandchild',
+    type: 'file',
+    children: [],
+  }
+]
+*/
+```
+
 > Continuously updating...
 
 ## LICENSE

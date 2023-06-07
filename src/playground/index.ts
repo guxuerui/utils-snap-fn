@@ -13,6 +13,7 @@ import randomColor from './random//randomColor'
 import capitalsFirstLetter from './string/capitalsFirstLetter'
 import copyToClipboard from './browser/copyToClipboard'
 import findTreeNode from './tree/findTreeNode'
+import findAllNode from './tree/findAllNode'
 
 export {
   isPhoneNum,
@@ -30,4 +31,5 @@ export {
   capitalsFirstLetter,
   copyToClipboard,
   findTreeNode,
+  findAllNode,
 }

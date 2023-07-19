@@ -156,10 +156,14 @@ generateUUID() // random UUID
 randomNum(11, 800) // random number
 ```
 
-- [randomColor](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomColor.ts) -- Generate random hex color
+- [randomColor](https://github.com/guxuerui/utils-fn/blob/main/src/playground/random/randomColor.ts) -- Generate random hex color or rgba color
 
 ```js
-randomColor() // random hex color
+randomColor('hex') // random hex color, example: #f31a34
+
+randomColor('rgb', 0.5) // random rgba color, example: rgba(31, 55, 78, 0.5)
+
+randomColor('rgb') // random rgba color, example: rgba(31, 55, 78, 1)
 ```
 
 ### 4. String

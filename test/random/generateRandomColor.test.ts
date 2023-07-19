@@ -10,4 +10,9 @@ describe('generateRandomColor', () => {
     const color = randomColor('hex')
     assert.match(color, /^#[0-9A-F]{6}$/i)
   })
+
+  it('should returns a valid rgba color', () => {
+    const color = randomColor('rgb', 1)
+    expect(color.startsWith('rgba(')).toBe(true)
+  })
 })

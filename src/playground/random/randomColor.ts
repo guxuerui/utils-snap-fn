@@ -9,7 +9,7 @@ export default function randomColor(type?: string, opacity?: number) {
     case 'hex':
       return `#${(`00000${(Math.random() * 0x1000000 << 0).toString(16)}`).slice(-6)}`
     case 'rgb':
-      return `rgba(${randomNum(0, 255)}, ${randomNum(0, 255)}, ${randomNum(0, 255)}, ${opacity})`
+      return `rgba(${randomNum(0, 255)}, ${randomNum(0, 255)}, ${randomNum(0, 255)}, ${opacity ?? 1})`
     default:
       return ''
   }

@@ -14,4 +14,7 @@ import capitalsFirstLetter from './string/capitalsFirstLetter';
 import copyToClipboard from './browser/copyToClipboard';
 import findTreeNode from './tree/findTreeNode';
 import findAllNode from './tree/findAllNode';
-export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, copyToClipboard, findTreeNode, findAllNode, };
+import getScrollTop from './dom/getScrollTop';
+import setScrollTop from './dom/setScrollTop';
+import scrollTo from './dom/scrollTo';
+export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, copyToClipboard, findTreeNode, findAllNode, getScrollTop, setScrollTop, scrollTo, };

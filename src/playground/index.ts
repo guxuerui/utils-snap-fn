@@ -14,6 +14,9 @@ import capitalsFirstLetter from './string/capitalsFirstLetter'
 import copyToClipboard from './browser/copyToClipboard'
 import findTreeNode from './tree/findTreeNode'
 import findAllNode from './tree/findAllNode'
+import getScrollTop from './dom/getScrollTop'
+import setScrollTop from './dom/setScrollTop'
+import scrollTo from './dom/scrollTo'
 
 export {
   isPhoneNum,
@@ -32,4 +35,7 @@ export {
   copyToClipboard,
   findTreeNode,
   findAllNode,
+  getScrollTop,
+  setScrollTop,
+  scrollTo,
 }

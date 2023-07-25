@@ -269,4 +269,4 @@ output:
 
 ## LICENSE
 
-[MIT](https://github.com/guxuerui/utils-fn/blob/main/LICENSE)
+[MIT](https://github.com/guxuerui/utils-snap-fn/blob/main/LICENSE)

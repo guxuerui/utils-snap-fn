@@ -265,6 +265,26 @@ output:
 */
 ```
 
+### 6. Dom
+
+- [getScrollTop](https://github.com/guxuerui/utils-fn/blob/main/src/playground/dom/getScrollTop.ts) -- Get document scrollTop value
+
+```js
+const scrollTopVal = getScrollTop()
+```
+
+- [setScrollTop](https://github.com/guxuerui/utils-fn/blob/main/src/playground/dom/setScrollTop.ts) -- Set document scrollTop value
+
+```js
+setScrollTop(0)
+```
+
+- [scrollTo](https://github.com/guxuerui/utils-fn/blob/main/src/playground/dom/scrollTo.ts) -- Scroll to document top
+
+```js
+scrollTo(0, 1)
+```
+
 > Continuously updating...
 
 ## LICENSE

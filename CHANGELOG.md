@@ -1,3 +1,7 @@
+## [1.1.10](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.9...v1.1.10) (2023-07-25)
+
+
+
 ## [1.1.9](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.8...v1.1.9) (2023-07-19)
 
 

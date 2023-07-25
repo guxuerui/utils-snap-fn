@@ -7,45 +7,19 @@ on:
 
 jobs:
   release:
-    runs-on: ${{ matrix.os }}
-
-    timeout-minutes: 10
-
-    strategy:
-      matrix:
-        node_version: [18.14.2, 18.14.2]
-        os: [ubuntu-latest, windows-latest]
-      fail-fast: false
+    if: github.repository == 'guxuerui/utils-snap-fn'
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: pnpm/action-setup@v2
-
-      - name: Set node version to ${{ matrix.node_version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node_version }}
-          cache: pnpm
-
-      - name: Install
-        run: |
-          pnpm config set strict-peer-dependencies false
-          pnpm i
-
-      - name: Build
-        run: pnpm run build
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
+      - name: Create Release for Tag
+        id: release_tag
+        uses: yyx990803/release-tag@master
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 自动获取 GitHub Token
-
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
+          body: |
+            Please refer to [CHANGELOG.md](https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md) for details.

@@ -14,15 +14,21 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Set up Node.js
+        uses: pnpm/action-setup@v2
+
+      - name: Set node version to ${{ matrix.node_version }}
         uses: actions/setup-node@v3
         with:
-          node-version: '18' # 设置你的 Node.js 版本
+          node-version: ${{ matrix.node_version }}
+          cache: pnpm
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install
+        run: |
+          pnpm config set strict-peer-dependencies false
+          pnpm i
 
       - name: Build
-        run: pnpm run build # 执行构建脚本
+        run: pnpm run build
 
       - name: Create Release
         id: create_release

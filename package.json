@@ -29,7 +29,8 @@
     "dev": "rollup -c -w --bundleConfigAsCjs",
     "lint": "eslint .",
     "test": "vitest",
-    "bumpp": "npx bumpp --commit --tag --push"
+    "bumpp": "npx bumpp --commit --tag --push",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",
@@ -41,6 +42,7 @@
     "@rollup/plugin-terser": "^0.4.0",
     "@rollup/plugin-typescript": "^11.0.0",
     "@types/jsdom": "^21.1.1",
+    "conventional-changelog-cli": "^3.0.0",
     "eslint": "^8.36.0",
     "jsdom": "^21.1.1",
     "rollup": "^3.20.0",

@@ -7,7 +7,15 @@ on:
 
 jobs:
   release:
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+
+    timeout-minutes: 10
+
+    strategy:
+      matrix:
+        node_version: [18.14.2, 18.14.2]
+        os: [ubuntu-latest, windows-latest]
+      fail-fast: false
 
     steps:
       - name: Checkout code

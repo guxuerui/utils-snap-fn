@@ -2,7 +2,7 @@
 
 > Collect some common utility functions for use in work. If you also have some common code, welcome to submit `pr` for this project.
 
-**Front-end tool function code snippets with full `typescript` support**. If you are using `TS` too, try it!
+**Front-end tool function code snippets with full `typescript` support**. If you are using `TS` too, you can use these in `Vue`, `Svelte`, `React` files, try it!
 
 ## :building_construction: Install
 

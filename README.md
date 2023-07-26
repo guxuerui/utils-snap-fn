@@ -19,13 +19,13 @@ pnpm add utils-snap-fn -D
 
 ## :anchor: Usage Example
 
-### 1. on-demand import
+### 1. On-demand Import
 
 ```js
 import { isPhoneNum } from 'utils-snap-fn'
 ```
 
-### 2. full import
+### 2. Full Import
 
 ```js
 import * as snapFn from 'utils-snap-fn'

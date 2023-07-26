@@ -17,7 +17,7 @@ yarn add utils-snap-fn -D
 pnpm add utils-snap-fn -D
 ```
 
-## :anchor: Usage
+## :anchor: Usage Example
 
 ### 1. on-demand import
 
@@ -76,7 +76,7 @@ isSafari() // true or false
 isMobile() // true or false
 ```
 
-- [isEamil](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isEmail.ts) -- Check if is an email address
+- [isEmail](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isEmail.ts) -- Check if is an email address
 
 ```js
 isEmail('123@gmail.com') // true

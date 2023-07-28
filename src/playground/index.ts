@@ -5,6 +5,7 @@ import isEmail from './regexp/isEmail'
 import isIdCard from './regexp/isIdCard'
 import isIpv4 from './regexp/isIpv4'
 import isIpv6 from './regexp/isIpv6'
+import isValidUUID from './regexp//isValidUUID'
 import isArrayEqual from './array/isArrayEqual'
 import removeDuplicatesObj from './array/removeDuplicatesObj'
 import generateUUID from './random/randomUUID'
@@ -26,6 +27,7 @@ export {
   isIdCard,
   isIpv4,
   isIpv6,
+  isValidUUID,
   isArrayEqual,
   removeDuplicatesObj,
   generateUUID,

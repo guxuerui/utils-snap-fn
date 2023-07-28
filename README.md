@@ -107,6 +107,7 @@ isIpv6('2001:0db8:85a3::8a2e:03707334') // false
 - [isValidUUID](https://github.com/guxuerui/utils-fn/blob/main/src/playground/regexp/isValidUUID.ts) -- Check if is an valid UUID
 
 ```js
+// use the `generateUUID` function
 isValidUUID(generateUUID()) // true
 ```
 

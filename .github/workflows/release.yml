@@ -1,20 +1,15 @@
-name: Release
+name: Main
 on:
   push:
     tags:
-      - '*'
+      - "v*"
+
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Create Archive Release
-        uses: thedoctor0/zip-release@master
-        with:
-          filename: 'release.zip'
-          exclusions: '*.git*'
-      - name: Upload Release
-        uses: ncipollo/release-action@v1
-        with:
-          artifacts: 'release.zip'
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: GH Release
+        uses: softprops/action-gh-release@v0.1.15
+

@@ -5,7 +5,7 @@
  * @returns An array of unique objects based on the specified key.
  */
 
-export default function removeDuplicatesObj(arr: any[], key: string): any[] {
+export default function removeDuplicatesObj<T>(arr: T[], key: string): T[] {
   if (arr === null || arr === undefined)
     return []
 
@@ -13,6 +13,7 @@ export default function removeDuplicatesObj(arr: any[], key: string): any[] {
     return arr
 
   return arr.filter((obj, index, self) =>
+    // @ts-expect-error required
     index === self.findIndex(t => t[key] === obj[key]),
   )
 }

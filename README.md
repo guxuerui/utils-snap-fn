@@ -179,6 +179,18 @@ randomColor('rgb') // random rgba color, example: rgba(31, 55, 78, 1)
 capitalsFirstLetter('hello') // Hello
 ```
 
+- [uppercaseEveryWord](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/uppercaseEveryWord.ts) -- Capitals every word's first letter
+
+```js
+uppercaseEveryWord('hello world') // Hello World
+```
+
+- [uppercaseEveryLetters](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/uppercaseEveryLetters.ts) -- Capitals every letters
+
+```js
+uppercaseEveryLetters('thank you javascript') // THANK YOU JAVASCRIPT
+```
+
 ### 5. Tree
 
 - [findTreeNode](https://github.com/guxuerui/utils-fn/blob/main/src/playground/tree/findTreeNode.ts) -- Find a tree node

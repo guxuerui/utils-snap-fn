@@ -12,6 +12,8 @@ import generateUUID from './random/randomUUID'
 import randomNum from './random//randomNum'
 import randomColor from './random//randomColor'
 import capitalsFirstLetter from './string/capitalsFirstLetter'
+import uppercaseEveryWord from './string/uppercaseEveryWord'
+import uppercaseEveryLetters from './string/uppercaseEveryLetters'
 import copyToClipboard from './browser/copyToClipboard'
 import findTreeNode from './tree/findTreeNode'
 import findAllNode from './tree/findAllNode'
@@ -34,6 +36,8 @@ export {
   randomNum,
   randomColor,
   capitalsFirstLetter,
+  uppercaseEveryWord,
+  uppercaseEveryLetters,
   copyToClipboard,
   findTreeNode,
   findAllNode,

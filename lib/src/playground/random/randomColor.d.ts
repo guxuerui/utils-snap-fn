@@ -1,1 +1,1 @@
-export default function randomColor(type?: string, opacity?: number): string;
+export default function randomColor(type: string, opacity?: number): string;

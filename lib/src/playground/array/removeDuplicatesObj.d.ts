@@ -4,4 +4,4 @@
  * @param key The key to use as the basis for removing duplicates.
  * @returns An array of unique objects based on the specified key.
  */
-export default function removeDuplicatesObj(arr: any[], key: string): any[];
+export default function removeDuplicatesObj<T>(arr: T[], key: string): T[];

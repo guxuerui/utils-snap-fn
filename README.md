@@ -191,6 +191,13 @@ uppercaseEveryWord('hello world') // Hello World
 uppercaseEveryLetters('thank you javascript') // THANK YOU JAVASCRIPT
 ```
 
+- [lowercaseEveryLetters](https://github.com/guxuerui/utils-fn/blob/main/src/playground/string/lowercaseEveryLetters.ts) -- Lowercase every letters
+
+```js
+lowercaseEveryLetters('THANK YOU VUE') // thank you vue
+lowercaseEveryLetters('THANK YOU JAVASCRIPT', 'en') // thank you javascript
+```
+
 ### 5. Tree
 
 - [findTreeNode](https://github.com/guxuerui/utils-fn/blob/main/src/playground/tree/findTreeNode.ts) -- Find a tree node

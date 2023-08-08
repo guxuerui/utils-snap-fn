@@ -14,6 +14,7 @@ import randomColor from './random//randomColor'
 import capitalsFirstLetter from './string/capitalsFirstLetter'
 import uppercaseEveryWord from './string/uppercaseEveryWord'
 import uppercaseEveryLetters from './string/uppercaseEveryLetters'
+import lowercaseEveryLetters from './string/lowercaseEveryLetters'
 import copyToClipboard from './browser/copyToClipboard'
 import findTreeNode from './tree/findTreeNode'
 import findAllNode from './tree/findAllNode'
@@ -38,6 +39,7 @@ export {
   capitalsFirstLetter,
   uppercaseEveryWord,
   uppercaseEveryLetters,
+  lowercaseEveryLetters,
   copyToClipboard,
   findTreeNode,
   findAllNode,

@@ -1,3 +1,30 @@
+## [1.1.13](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.12...v1.1.13) (2023-08-08)
+
+
+### Bug Fixes
+
+* **release.yml:** update actions/checkout version to v3 ([074d7fb](https://github.com/guxuerui/utils-snap-fn/commit/074d7fb3974c6e6c40f293e69f0557f937b9ab7d))
+
+
+### Features
+
+* **playground:** add lowercaseEveryLetters function ([8f0957f](https://github.com/guxuerui/utils-snap-fn/commit/8f0957f7a616f1619f7240d9521928c1e74da13a))
+* **playground:** add uppercaseEveryWord and uppercaseEveryLetters functions to string module ([afcdc5c](https://github.com/guxuerui/utils-snap-fn/commit/afcdc5c3a2bc8f4a13ce133e59b1cf99070a6c1a))
+* **release.yml:** add GitHub Actions workflow for creating releases ([72d2884](https://github.com/guxuerui/utils-snap-fn/commit/72d2884f9c5de67a7a5b1788a73befe6803d8107))
+* **uppercaseEveryLetters:** add uppercaseEveryLetters function ([13ca405](https://github.com/guxuerui/utils-snap-fn/commit/13ca405e6ea9761d754606a7b255cd1289bf6919))
+* **uppercaseEveryWord:** add uppercaseEveryWord function and test ([c76283f](https://github.com/guxuerui/utils-snap-fn/commit/c76283f825e73374dfe1a4bd3477648880e2c14a))
+
+
+
+## [1.1.12](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.11...v1.1.12) (2023-07-28)
+
+
+### Features
+
+* **playground:** add isValidUUID function to the exported functions ([e0d59e7](https://github.com/guxuerui/utils-snap-fn/commit/e0d59e70e6e147acf56ae5e75dd6b9b9ed51ff39))
+
+
+
 ## [1.1.11](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.10...v1.1.11) (2023-07-25)
 
 

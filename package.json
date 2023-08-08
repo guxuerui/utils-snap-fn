@@ -30,7 +30,7 @@
     "lint": "eslint .",
     "test": "vitest",
     "bumpp": "npx bumpp --commit --tag --push",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.37.0",

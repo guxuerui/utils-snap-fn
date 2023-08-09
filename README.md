@@ -309,6 +309,14 @@ setScrollTop(0)
 scrollTo(0, 1)
 ```
 
+### 7. Browser
+
+- [copyToClipboard](https://github.com/guxuerui/utils-fn/blob/main/src/playground/browser/copyToClipboard.ts) -- Copy data to clipboard
+
+```js
+await copyToClipboard('Thank you javascript', () => console.log('Copied!'))
+```
+
 > Continuously updating...
 
 ## LICENSE

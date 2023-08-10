@@ -7,14 +7,7 @@
  * @returns The node that matches the key and value, or null if no match is found.
 */
 
-type TreeNode<T, U> = {
-  id: T
-  name: U
-  [key: string]: T | U | TreeNode<T, U>[]
-  children: TreeNode<T, U>[]
-}
-
-export default function findTreeNode(tree: TreeNode<number, string>, key: string, value: string | number): TreeNode<number, string> | null {
+export default function findTreeNode(tree: any, key: string, value: string | number): any {
   if (tree[key] === value)
     return tree
 

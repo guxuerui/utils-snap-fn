@@ -317,6 +317,18 @@ scrollTo(0, 1)
 await copyToClipboard('Thank you javascript', () => console.log('Copied!'))
 ```
 
+### 8. Date
+
+- [formatTimeLength](https://github.com/guxuerui/utils-fn/blob/main/src/playground/date/formatTimeLength.ts) -- Format time length
+
+```js
+formatTimeLength(45));      // 45秒
+formatTimeLength(310));     // 5分10秒
+formatTimeLength(7383));    // 2小时3分3秒
+formatTimeLength(259200));  // 3天0小时0分0秒
+
+```
+
 > Continuously updating...
 
 ## LICENSE

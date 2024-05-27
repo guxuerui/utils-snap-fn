@@ -21,5 +21,4 @@ import findAllNode from './tree/findAllNode';
 import getScrollTop from './dom/getScrollTop';
 import setScrollTop from './dom/setScrollTop';
 import scrollTo from './dom/scrollTo';
-import formatTimeLength from './date/formatTimeLength';
-export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isValidUUID, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, uppercaseEveryWord, uppercaseEveryLetters, lowercaseEveryLetters, copyToClipboard, findTreeNode, findAllNode, getScrollTop, setScrollTop, scrollTo, formatTimeLength, };
+export { isPhoneNum, isSafari, isMobile, isEmail, isIdCard, isIpv4, isIpv6, isValidUUID, isArrayEqual, removeDuplicatesObj, generateUUID, randomNum, randomColor, capitalsFirstLetter, uppercaseEveryWord, uppercaseEveryLetters, lowercaseEveryLetters, copyToClipboard, findTreeNode, findAllNode, getScrollTop, setScrollTop, scrollTo, };

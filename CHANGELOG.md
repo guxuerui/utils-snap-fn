@@ -1,3 +1,13 @@
+## [1.1.14](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.13...v1.1.14) (2024-05-27)
+
+
+### Features
+
+* add new function ([1144a6f](https://github.com/guxuerui/utils-snap-fn/commit/1144a6fd70e6a44ee625ff7f3b51472f66d244c7))
+* add new unit test ([97152c1](https://github.com/guxuerui/utils-snap-fn/commit/97152c13ef248d8fe8ba362c8cf74f7bcf24c6f5))
+
+
+
 ## [1.1.13](https://github.com/guxuerui/utils-snap-fn/compare/v1.1.12...v1.1.13) (2023-08-08)
 
 

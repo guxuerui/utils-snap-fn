@@ -21,6 +21,7 @@ import findAllNode from './tree/findAllNode'
 import getScrollTop from './dom/getScrollTop'
 import setScrollTop from './dom/setScrollTop'
 import scrollTo from './dom/scrollTo'
+import formatTimeLength from './date/formatTimeLength'
 
 export {
   isPhoneNum,
@@ -46,4 +47,5 @@ export {
   getScrollTop,
   setScrollTop,
   scrollTo,
+  formatTimeLength,
 }
